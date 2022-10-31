@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(5, 166, 206);
+    font-family: 'Poppins, sans-serif';
+}
+
+.page-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem;
+    text-align: center;
+}
+
+.page-content h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #edffec;
+}
+
+.page-content h2{
+    font-weight: 600;
+}
+
+.page-button{
+    display: flex;
+    margin: 2rem 0;
+}
+
+.btn.btn-pink{
+    background: #dd2d4a;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-btn-pink:hover{
+    background: transparent;
+    border-color: #dd2d4a;
+    color: #000;
+}
+
+.page-info p{
+    font-weight: 300;
+    padding: 0.5rem;
+}
+
+@media (max-width:758px){
+    .container{
+        padding: 20px;
+        font-size: 4rem;
+    }
+}
