@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 function main(){
-    get_projecao
+    change_html
     git_update
 }
 function get_projecao(){
